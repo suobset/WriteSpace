@@ -1,0 +1,10 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/suobset/Documents/WriteSpace/cmake_install.cmake",
+		"/home/suobset/Documents/WriteSpace/_deps/ftxui-build/cmake_install.cmake",
+		"/home/suobset/Documents/WriteSpace/_deps/ftxui-build/examples/cmake_install.cmake",
+		"/home/suobset/Documents/WriteSpace/_deps/ftxui-build/doc/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

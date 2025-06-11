@@ -1,0 +1,15 @@
+# This is a generated file and its contents are an internal implementation detail.
+# The download step will be re-executed if anything in this file changes.
+# No other meaning or use of this file is supported.
+
+method=git
+command=/home/suobset/.cache/JetBrains/RemoteDev/dist/366b89b420705_CLion-252.19874.7/bin/cmake/linux/x64/bin/cmake;-DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE;-P;/home/suobset/Documents/WriteSpace/_deps/ftxui-subbuild/ftxui-populate-prefix/tmp/ftxui-populate-gitclone.cmake
+source_dir=/home/suobset/Documents/WriteSpace/_deps/ftxui-src
+work_dir=/home/suobset/Documents/WriteSpace/_deps
+repository=https://github.com/ArthurSonzogni/FTXUI.git
+remote=origin
+init_submodules=TRUE
+recurse_submodules=--recursive
+submodules=
+CMP0097=NEW
+      

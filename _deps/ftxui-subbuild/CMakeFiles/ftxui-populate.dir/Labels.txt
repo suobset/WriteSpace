@@ -1,0 +1,14 @@
+# Target labels
+ ftxui-populate
+# Source files and their labels
+/home/suobset/Documents/WriteSpace/_deps/ftxui-subbuild/CMakeFiles/ftxui-populate
+/home/suobset/Documents/WriteSpace/_deps/ftxui-subbuild/CMakeFiles/ftxui-populate.rule
+/home/suobset/Documents/WriteSpace/_deps/ftxui-subbuild/CMakeFiles/ftxui-populate-complete.rule
+/home/suobset/Documents/WriteSpace/_deps/ftxui-subbuild/ftxui-populate-prefix/src/ftxui-populate-stamp/ftxui-populate-build.rule
+/home/suobset/Documents/WriteSpace/_deps/ftxui-subbuild/ftxui-populate-prefix/src/ftxui-populate-stamp/ftxui-populate-configure.rule
+/home/suobset/Documents/WriteSpace/_deps/ftxui-subbuild/ftxui-populate-prefix/src/ftxui-populate-stamp/ftxui-populate-download.rule
+/home/suobset/Documents/WriteSpace/_deps/ftxui-subbuild/ftxui-populate-prefix/src/ftxui-populate-stamp/ftxui-populate-install.rule
+/home/suobset/Documents/WriteSpace/_deps/ftxui-subbuild/ftxui-populate-prefix/src/ftxui-populate-stamp/ftxui-populate-mkdir.rule
+/home/suobset/Documents/WriteSpace/_deps/ftxui-subbuild/ftxui-populate-prefix/src/ftxui-populate-stamp/ftxui-populate-patch.rule
+/home/suobset/Documents/WriteSpace/_deps/ftxui-subbuild/ftxui-populate-prefix/src/ftxui-populate-stamp/ftxui-populate-test.rule
+/home/suobset/Documents/WriteSpace/_deps/ftxui-subbuild/ftxui-populate-prefix/src/ftxui-populate-stamp/ftxui-populate-update.rule

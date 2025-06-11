@@ -1,5 +1,5 @@
 % WRITESPACE(1) | General Commands Manual
-% The WriteSpace Team
+% Kush Srivastava <https://skushagra.com>
 % August 2025
 
 # NAME
@@ -108,8 +108,7 @@ This section refers to the `writespace` command-line interface.
 
 # AUTHOR
 
-Written by The WriteSpace Team.
-Further contributions and development by the AI Software Engineering Agent.
+Written by Kush Srivastava <https://skushagra.com>.
 
 # SEE ALSO
 

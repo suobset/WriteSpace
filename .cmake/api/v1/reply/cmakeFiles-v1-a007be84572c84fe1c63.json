@@ -1,0 +1,616 @@
+{
+	"inputs" : 
+	[
+		{
+			"path" : "CMakeLists.txt"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/suobset/.cache/JetBrains/RemoteDev/dist/366b89b420705_CLion-252.19874.7/bin/cmake/linux/x64/share/cmake-4.0/Modules/CMakeDetermineSystem.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/suobset/.cache/JetBrains/RemoteDev/dist/366b89b420705_CLion-252.19874.7/bin/cmake/linux/x64/share/cmake-4.0/Modules/CMakeSystem.cmake.in"
+		},
+		{
+			"path" : "CMakeFiles/4.0.2/CMakeSystem.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/suobset/.cache/JetBrains/RemoteDev/dist/366b89b420705_CLion-252.19874.7/bin/cmake/linux/x64/share/cmake-4.0/Modules/CMakeSystemSpecificInitialize.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/suobset/.cache/JetBrains/RemoteDev/dist/366b89b420705_CLion-252.19874.7/bin/cmake/linux/x64/share/cmake-4.0/Modules/Platform/Linux-Initialize.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/suobset/.cache/JetBrains/RemoteDev/dist/366b89b420705_CLion-252.19874.7/bin/cmake/linux/x64/share/cmake-4.0/Modules/CMakeDetermineCXXCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/suobset/.cache/JetBrains/RemoteDev/dist/366b89b420705_CLion-252.19874.7/bin/cmake/linux/x64/share/cmake-4.0/Modules/CMakeDetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/suobset/.cache/JetBrains/RemoteDev/dist/366b89b420705_CLion-252.19874.7/bin/cmake/linux/x64/share/cmake-4.0/Modules/Platform/Linux-Determine-CXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/suobset/.cache/JetBrains/RemoteDev/dist/366b89b420705_CLion-252.19874.7/bin/cmake/linux/x64/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/suobset/.cache/JetBrains/RemoteDev/dist/366b89b420705_CLion-252.19874.7/bin/cmake/linux/x64/share/cmake-4.0/Modules/CMakeCompilerIdDetection.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/suobset/.cache/JetBrains/RemoteDev/dist/366b89b420705_CLion-252.19874.7/bin/cmake/linux/x64/share/cmake-4.0/Modules/Compiler/ADSP-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/suobset/.cache/JetBrains/RemoteDev/dist/366b89b420705_CLion-252.19874.7/bin/cmake/linux/x64/share/cmake-4.0/Modules/Compiler/ARMCC-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/suobset/.cache/JetBrains/RemoteDev/dist/366b89b420705_CLion-252.19874.7/bin/cmake/linux/x64/share/cmake-4.0/Modules/Compiler/ARMClang-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/suobset/.cache/JetBrains/RemoteDev/dist/366b89b420705_CLion-252.19874.7/bin/cmake/linux/x64/share/cmake-4.0/Modules/Compiler/AppleClang-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/suobset/.cache/JetBrains/RemoteDev/dist/366b89b420705_CLion-252.19874.7/bin/cmake/linux/x64/share/cmake-4.0/Modules/Compiler/Clang-DetermineCompilerInternal.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/suobset/.cache/JetBrains/RemoteDev/dist/366b89b420705_CLion-252.19874.7/bin/cmake/linux/x64/share/cmake-4.0/Modules/Compiler/Borland-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/suobset/.cache/JetBrains/RemoteDev/dist/366b89b420705_CLion-252.19874.7/bin/cmake/linux/x64/share/cmake-4.0/Modules/Compiler/Clang-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/suobset/.cache/JetBrains/RemoteDev/dist/366b89b420705_CLion-252.19874.7/bin/cmake/linux/x64/share/cmake-4.0/Modules/Compiler/Clang-DetermineCompilerInternal.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/suobset/.cache/JetBrains/RemoteDev/dist/366b89b420705_CLion-252.19874.7/bin/cmake/linux/x64/share/cmake-4.0/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/suobset/.cache/JetBrains/RemoteDev/dist/366b89b420705_CLion-252.19874.7/bin/cmake/linux/x64/share/cmake-4.0/Modules/Compiler/Cray-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/suobset/.cache/JetBrains/RemoteDev/dist/366b89b420705_CLion-252.19874.7/bin/cmake/linux/x64/share/cmake-4.0/Modules/Compiler/CrayClang-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/suobset/.cache/JetBrains/RemoteDev/dist/366b89b420705_CLion-252.19874.7/bin/cmake/linux/x64/share/cmake-4.0/Modules/Compiler/Embarcadero-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/suobset/.cache/JetBrains/RemoteDev/dist/366b89b420705_CLion-252.19874.7/bin/cmake/linux/x64/share/cmake-4.0/Modules/Compiler/Fujitsu-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/suobset/.cache/JetBrains/RemoteDev/dist/366b89b420705_CLion-252.19874.7/bin/cmake/linux/x64/share/cmake-4.0/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/suobset/.cache/JetBrains/RemoteDev/dist/366b89b420705_CLion-252.19874.7/bin/cmake/linux/x64/share/cmake-4.0/Modules/Compiler/GHS-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/suobset/.cache/JetBrains/RemoteDev/dist/366b89b420705_CLion-252.19874.7/bin/cmake/linux/x64/share/cmake-4.0/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/suobset/.cache/JetBrains/RemoteDev/dist/366b89b420705_CLion-252.19874.7/bin/cmake/linux/x64/share/cmake-4.0/Modules/Compiler/HP-CXX-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/suobset/.cache/JetBrains/RemoteDev/dist/366b89b420705_CLion-252.19874.7/bin/cmake/linux/x64/share/cmake-4.0/Modules/Compiler/IAR-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/suobset/.cache/JetBrains/RemoteDev/dist/366b89b420705_CLion-252.19874.7/bin/cmake/linux/x64/share/cmake-4.0/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/suobset/.cache/JetBrains/RemoteDev/dist/366b89b420705_CLion-252.19874.7/bin/cmake/linux/x64/share/cmake-4.0/Modules/Compiler/Intel-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/suobset/.cache/JetBrains/RemoteDev/dist/366b89b420705_CLion-252.19874.7/bin/cmake/linux/x64/share/cmake-4.0/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/suobset/.cache/JetBrains/RemoteDev/dist/366b89b420705_CLion-252.19874.7/bin/cmake/linux/x64/share/cmake-4.0/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/suobset/.cache/JetBrains/RemoteDev/dist/366b89b420705_CLion-252.19874.7/bin/cmake/linux/x64/share/cmake-4.0/Modules/Compiler/MSVC-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/suobset/.cache/JetBrains/RemoteDev/dist/366b89b420705_CLion-252.19874.7/bin/cmake/linux/x64/share/cmake-4.0/Modules/Compiler/NVHPC-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/suobset/.cache/JetBrains/RemoteDev/dist/366b89b420705_CLion-252.19874.7/bin/cmake/linux/x64/share/cmake-4.0/Modules/Compiler/NVIDIA-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/suobset/.cache/JetBrains/RemoteDev/dist/366b89b420705_CLion-252.19874.7/bin/cmake/linux/x64/share/cmake-4.0/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/suobset/.cache/JetBrains/RemoteDev/dist/366b89b420705_CLion-252.19874.7/bin/cmake/linux/x64/share/cmake-4.0/Modules/Compiler/OrangeC-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/suobset/.cache/JetBrains/RemoteDev/dist/366b89b420705_CLion-252.19874.7/bin/cmake/linux/x64/share/cmake-4.0/Modules/Compiler/PGI-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/suobset/.cache/JetBrains/RemoteDev/dist/366b89b420705_CLion-252.19874.7/bin/cmake/linux/x64/share/cmake-4.0/Modules/Compiler/PathScale-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/suobset/.cache/JetBrains/RemoteDev/dist/366b89b420705_CLion-252.19874.7/bin/cmake/linux/x64/share/cmake-4.0/Modules/Compiler/SCO-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/suobset/.cache/JetBrains/RemoteDev/dist/366b89b420705_CLion-252.19874.7/bin/cmake/linux/x64/share/cmake-4.0/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/suobset/.cache/JetBrains/RemoteDev/dist/366b89b420705_CLion-252.19874.7/bin/cmake/linux/x64/share/cmake-4.0/Modules/Compiler/TI-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/suobset/.cache/JetBrains/RemoteDev/dist/366b89b420705_CLion-252.19874.7/bin/cmake/linux/x64/share/cmake-4.0/Modules/Compiler/TIClang-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/suobset/.cache/JetBrains/RemoteDev/dist/366b89b420705_CLion-252.19874.7/bin/cmake/linux/x64/share/cmake-4.0/Modules/Compiler/Tasking-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/suobset/.cache/JetBrains/RemoteDev/dist/366b89b420705_CLion-252.19874.7/bin/cmake/linux/x64/share/cmake-4.0/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/suobset/.cache/JetBrains/RemoteDev/dist/366b89b420705_CLion-252.19874.7/bin/cmake/linux/x64/share/cmake-4.0/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/suobset/.cache/JetBrains/RemoteDev/dist/366b89b420705_CLion-252.19874.7/bin/cmake/linux/x64/share/cmake-4.0/Modules/Compiler/Watcom-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/suobset/.cache/JetBrains/RemoteDev/dist/366b89b420705_CLion-252.19874.7/bin/cmake/linux/x64/share/cmake-4.0/Modules/Compiler/XL-CXX-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/suobset/.cache/JetBrains/RemoteDev/dist/366b89b420705_CLion-252.19874.7/bin/cmake/linux/x64/share/cmake-4.0/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/suobset/.cache/JetBrains/RemoteDev/dist/366b89b420705_CLion-252.19874.7/bin/cmake/linux/x64/share/cmake-4.0/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/suobset/.cache/JetBrains/RemoteDev/dist/366b89b420705_CLion-252.19874.7/bin/cmake/linux/x64/share/cmake-4.0/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/suobset/.cache/JetBrains/RemoteDev/dist/366b89b420705_CLion-252.19874.7/bin/cmake/linux/x64/share/cmake-4.0/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/suobset/.cache/JetBrains/RemoteDev/dist/366b89b420705_CLion-252.19874.7/bin/cmake/linux/x64/share/cmake-4.0/Modules/CMakeFindBinUtils.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/suobset/.cache/JetBrains/RemoteDev/dist/366b89b420705_CLion-252.19874.7/bin/cmake/linux/x64/share/cmake-4.0/Modules/Compiler/GNU-FindBinUtils.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/suobset/.cache/JetBrains/RemoteDev/dist/366b89b420705_CLion-252.19874.7/bin/cmake/linux/x64/share/cmake-4.0/Modules/CMakeCXXCompiler.cmake.in"
+		},
+		{
+			"path" : "CMakeFiles/4.0.2/CMakeCXXCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/suobset/.cache/JetBrains/RemoteDev/dist/366b89b420705_CLion-252.19874.7/bin/cmake/linux/x64/share/cmake-4.0/Modules/CMakeSystemSpecificInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/suobset/.cache/JetBrains/RemoteDev/dist/366b89b420705_CLion-252.19874.7/bin/cmake/linux/x64/share/cmake-4.0/Modules/CMakeGenericSystem.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/suobset/.cache/JetBrains/RemoteDev/dist/366b89b420705_CLion-252.19874.7/bin/cmake/linux/x64/share/cmake-4.0/Modules/CMakeInitializeConfigs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/suobset/.cache/JetBrains/RemoteDev/dist/366b89b420705_CLion-252.19874.7/bin/cmake/linux/x64/share/cmake-4.0/Modules/Platform/Linux.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/suobset/.cache/JetBrains/RemoteDev/dist/366b89b420705_CLion-252.19874.7/bin/cmake/linux/x64/share/cmake-4.0/Modules/Platform/UnixPaths.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/suobset/.cache/JetBrains/RemoteDev/dist/366b89b420705_CLion-252.19874.7/bin/cmake/linux/x64/share/cmake-4.0/Modules/CMakeCXXInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/suobset/.cache/JetBrains/RemoteDev/dist/366b89b420705_CLion-252.19874.7/bin/cmake/linux/x64/share/cmake-4.0/Modules/CMakeLanguageInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/suobset/.cache/JetBrains/RemoteDev/dist/366b89b420705_CLion-252.19874.7/bin/cmake/linux/x64/share/cmake-4.0/Modules/Compiler/GNU-CXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/suobset/.cache/JetBrains/RemoteDev/dist/366b89b420705_CLion-252.19874.7/bin/cmake/linux/x64/share/cmake-4.0/Modules/Compiler/GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/suobset/.cache/JetBrains/RemoteDev/dist/366b89b420705_CLion-252.19874.7/bin/cmake/linux/x64/share/cmake-4.0/Modules/Compiler/CMakeCommonCompilerMacros.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/suobset/.cache/JetBrains/RemoteDev/dist/366b89b420705_CLion-252.19874.7/bin/cmake/linux/x64/share/cmake-4.0/Modules/Platform/Linux-GNU-CXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/suobset/.cache/JetBrains/RemoteDev/dist/366b89b420705_CLion-252.19874.7/bin/cmake/linux/x64/share/cmake-4.0/Modules/Platform/Linux-GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/suobset/.cache/JetBrains/RemoteDev/dist/366b89b420705_CLion-252.19874.7/bin/cmake/linux/x64/share/cmake-4.0/Modules/CMakeCommonLanguageInclude.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/suobset/.cache/JetBrains/RemoteDev/dist/366b89b420705_CLion-252.19874.7/bin/cmake/linux/x64/share/cmake-4.0/Modules/CMakeTestCXXCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/suobset/.cache/JetBrains/RemoteDev/dist/366b89b420705_CLion-252.19874.7/bin/cmake/linux/x64/share/cmake-4.0/Modules/CMakeTestCompilerCommon.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/suobset/.cache/JetBrains/RemoteDev/dist/366b89b420705_CLion-252.19874.7/bin/cmake/linux/x64/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/suobset/.cache/JetBrains/RemoteDev/dist/366b89b420705_CLion-252.19874.7/bin/cmake/linux/x64/share/cmake-4.0/Modules/Internal/CMakeDetermineLinkerId.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/suobset/.cache/JetBrains/RemoteDev/dist/366b89b420705_CLion-252.19874.7/bin/cmake/linux/x64/share/cmake-4.0/Modules/CMakeParseImplicitIncludeInfo.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/suobset/.cache/JetBrains/RemoteDev/dist/366b89b420705_CLion-252.19874.7/bin/cmake/linux/x64/share/cmake-4.0/Modules/CMakeParseImplicitLinkInfo.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/suobset/.cache/JetBrains/RemoteDev/dist/366b89b420705_CLion-252.19874.7/bin/cmake/linux/x64/share/cmake-4.0/Modules/CMakeParseLibraryArchitecture.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/suobset/.cache/JetBrains/RemoteDev/dist/366b89b420705_CLion-252.19874.7/bin/cmake/linux/x64/share/cmake-4.0/Modules/CMakeTestCompilerCommon.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/suobset/.cache/JetBrains/RemoteDev/dist/366b89b420705_CLion-252.19874.7/bin/cmake/linux/x64/share/cmake-4.0/Modules/CMakeCXXCompilerABI.cpp"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/suobset/.cache/JetBrains/RemoteDev/dist/366b89b420705_CLion-252.19874.7/bin/cmake/linux/x64/share/cmake-4.0/Modules/CMakeDetermineCompilerSupport.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/suobset/.cache/JetBrains/RemoteDev/dist/366b89b420705_CLion-252.19874.7/bin/cmake/linux/x64/share/cmake-4.0/Modules/Internal/FeatureTesting.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/suobset/.cache/JetBrains/RemoteDev/dist/366b89b420705_CLion-252.19874.7/bin/cmake/linux/x64/share/cmake-4.0/Modules/CMakeCXXCompiler.cmake.in"
+		},
+		{
+			"path" : "CMakeFiles/4.0.2/CMakeCXXCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/suobset/.cache/JetBrains/RemoteDev/dist/366b89b420705_CLion-252.19874.7/bin/cmake/linux/x64/share/cmake-4.0/Modules/Internal/CMakeCXXLinkerInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/suobset/.cache/JetBrains/RemoteDev/dist/366b89b420705_CLion-252.19874.7/bin/cmake/linux/x64/share/cmake-4.0/Modules/Internal/CMakeCommonLinkerInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/suobset/.cache/JetBrains/RemoteDev/dist/366b89b420705_CLion-252.19874.7/bin/cmake/linux/x64/share/cmake-4.0/Modules/Linker/GNU-CXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/suobset/.cache/JetBrains/RemoteDev/dist/366b89b420705_CLion-252.19874.7/bin/cmake/linux/x64/share/cmake-4.0/Modules/Linker/GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/suobset/.cache/JetBrains/RemoteDev/dist/366b89b420705_CLion-252.19874.7/bin/cmake/linux/x64/share/cmake-4.0/Modules/Platform/Linker/Linux-GNU-CXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/suobset/.cache/JetBrains/RemoteDev/dist/366b89b420705_CLion-252.19874.7/bin/cmake/linux/x64/share/cmake-4.0/Modules/Platform/Linker/Linux-GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/suobset/.cache/JetBrains/RemoteDev/dist/366b89b420705_CLion-252.19874.7/bin/cmake/linux/x64/share/cmake-4.0/Modules/Platform/Linker/GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/suobset/.cache/JetBrains/RemoteDev/dist/366b89b420705_CLion-252.19874.7/bin/cmake/linux/x64/share/cmake-4.0/Modules/Internal/CMakeInspectCXXLinker.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/suobset/.cache/JetBrains/RemoteDev/dist/366b89b420705_CLion-252.19874.7/bin/cmake/linux/x64/share/cmake-4.0/Modules/CMakeCXXCompiler.cmake.in"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/suobset/.cache/JetBrains/RemoteDev/dist/366b89b420705_CLion-252.19874.7/bin/cmake/linux/x64/share/cmake-4.0/Modules/FetchContent.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/suobset/.cache/JetBrains/RemoteDev/dist/366b89b420705_CLion-252.19874.7/bin/cmake/linux/x64/share/cmake-4.0/Modules/ExternalProject/shared_internal_commands.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/suobset/.cache/JetBrains/RemoteDev/dist/366b89b420705_CLion-252.19874.7/bin/cmake/linux/x64/share/cmake-4.0/Modules/FindGit.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/suobset/.cache/JetBrains/RemoteDev/dist/366b89b420705_CLion-252.19874.7/bin/cmake/linux/x64/share/cmake-4.0/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/suobset/.cache/JetBrains/RemoteDev/dist/366b89b420705_CLion-252.19874.7/bin/cmake/linux/x64/share/cmake-4.0/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/suobset/.cache/JetBrains/RemoteDev/dist/366b89b420705_CLion-252.19874.7/bin/cmake/linux/x64/share/cmake-4.0/Modules/FetchContent/CMakeLists.cmake.in"
+		},
+		{
+			"path" : "_deps/ftxui-src/CMakeLists.txt"
+		},
+		{
+			"path" : "_deps/ftxui-src/cmake/ftxui_message.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/suobset/.cache/JetBrains/RemoteDev/dist/366b89b420705_CLion-252.19874.7/bin/cmake/linux/x64/share/cmake-4.0/Modules/FindThreads.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/suobset/.cache/JetBrains/RemoteDev/dist/366b89b420705_CLion-252.19874.7/bin/cmake/linux/x64/share/cmake-4.0/Modules/CheckLibraryExists.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/suobset/.cache/JetBrains/RemoteDev/dist/366b89b420705_CLion-252.19874.7/bin/cmake/linux/x64/share/cmake-4.0/Modules/CheckIncludeFileCXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/suobset/.cache/JetBrains/RemoteDev/dist/366b89b420705_CLion-252.19874.7/bin/cmake/linux/x64/share/cmake-4.0/Modules/CheckCXXSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/suobset/.cache/JetBrains/RemoteDev/dist/366b89b420705_CLion-252.19874.7/bin/cmake/linux/x64/share/cmake-4.0/Modules/Internal/CheckSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/suobset/.cache/JetBrains/RemoteDev/dist/366b89b420705_CLion-252.19874.7/bin/cmake/linux/x64/share/cmake-4.0/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/suobset/.cache/JetBrains/RemoteDev/dist/366b89b420705_CLion-252.19874.7/bin/cmake/linux/x64/share/cmake-4.0/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"path" : "_deps/ftxui-src/cmake/ftxui_set_options.cmake"
+		},
+		{
+			"path" : "_deps/ftxui-src/cmake/ftxui_coverage.cmake"
+		},
+		{
+			"path" : "_deps/ftxui-src/cmake/ftxui_test.cmake"
+		},
+		{
+			"path" : "_deps/ftxui-src/cmake/ftxui_benchmark.cmake"
+		},
+		{
+			"path" : "_deps/ftxui-src/cmake/ftxui_fuzzer.cmake"
+		},
+		{
+			"path" : "_deps/ftxui-src/cmake/iwyu.cmake"
+		},
+		{
+			"path" : "_deps/ftxui-src/cmake/ftxui_export.cmake"
+		},
+		{
+			"path" : "_deps/ftxui-src/cmake/ftxui_install.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/suobset/.cache/JetBrains/RemoteDev/dist/366b89b420705_CLion-252.19874.7/bin/cmake/linux/x64/share/cmake-4.0/Modules/GNUInstallDirs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/suobset/.cache/JetBrains/RemoteDev/dist/366b89b420705_CLion-252.19874.7/bin/cmake/linux/x64/share/cmake-4.0/Modules/CMakePackageConfigHelpers.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/suobset/.cache/JetBrains/RemoteDev/dist/366b89b420705_CLion-252.19874.7/bin/cmake/linux/x64/share/cmake-4.0/Modules/WriteBasicConfigVersionFile.cmake"
+		},
+		{
+			"path" : "_deps/ftxui-src/cmake/ftxui-config.cmake.in"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/suobset/.cache/JetBrains/RemoteDev/dist/366b89b420705_CLion-252.19874.7/bin/cmake/linux/x64/share/cmake-4.0/Modules/BasicConfigVersion-SameMajorVersion.cmake.in"
+		},
+		{
+			"path" : "_deps/ftxui-src/ftxui.pc.in"
+		},
+		{
+			"path" : "_deps/ftxui-src/cmake/ftxui_package.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/suobset/.cache/JetBrains/RemoteDev/dist/366b89b420705_CLion-252.19874.7/bin/cmake/linux/x64/share/cmake-4.0/Modules/CPack.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/suobset/.cache/JetBrains/RemoteDev/dist/366b89b420705_CLion-252.19874.7/bin/cmake/linux/x64/share/cmake-4.0/Modules/CPackComponent.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/suobset/.cache/JetBrains/RemoteDev/dist/366b89b420705_CLion-252.19874.7/bin/cmake/linux/x64/share/cmake-4.0/Templates/CPackConfig.cmake.in"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/suobset/.cache/JetBrains/RemoteDev/dist/366b89b420705_CLion-252.19874.7/bin/cmake/linux/x64/share/cmake-4.0/Templates/CPackConfig.cmake.in"
+		},
+		{
+			"path" : "_deps/ftxui-src/examples/CMakeLists.txt"
+		},
+		{
+			"path" : "_deps/ftxui-src/doc/CMakeLists.txt"
+		}
+	],
+	"kind" : "cmakeFiles",
+	"paths" : 
+	{
+		"build" : "/home/suobset/Documents/WriteSpace",
+		"source" : "/home/suobset/Documents/WriteSpace"
+	},
+	"version" : 
+	{
+		"major" : 1,
+		"minor" : 1
+	}
+}

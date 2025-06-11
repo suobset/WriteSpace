@@ -11,11 +11,12 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/suobset/Documents/WriteSpace/src/main.cpp" "CMakeFiles/writespace-tui.dir/src/main.cpp.o" "gcc" "CMakeFiles/writespace-tui.dir/src/main.cpp.o.d"
   )
 
-# Targets to which this target links.
-set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/suobset/Documents/WriteSpace/_deps/ftxui-build/CMakeFiles/screen.dir/DependInfo.cmake"
-  "/home/suobset/Documents/WriteSpace/_deps/ftxui-build/CMakeFiles/dom.dir/DependInfo.cmake"
-  "/home/suobset/Documents/WriteSpace/_deps/ftxui-build/CMakeFiles/component.dir/DependInfo.cmake"
+# Targets to which this target links which contain Fortran sources.
+set(CMAKE_Fortran_TARGET_LINKED_INFO_FILES
+  )
+
+# Targets to which this target links which contain Fortran sources.
+set(CMAKE_Fortran_TARGET_FORWARD_LINKED_INFO_FILES
   )
 
 # Fortran module output directory.
