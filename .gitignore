@@ -1,0 +1,13 @@
+# Ignore generated output files
+*.html
+*.pdf
+*.log
+*.aux
+*.bbl
+*.blg
+
+# Ignore system files
+.DS_Store
+
+# Build directory for C++ TUI
+build_cpp_tui/

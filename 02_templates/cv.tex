@@ -1,0 +1,26 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{geometry}
+\geometry{left=1in,right=1in,top=1in,bottom=1in}
+\usepackage{ragged2e} % For \RaggedRight
+\usepackage{hyperref} % For clickable links
+
+\title{$title$} % e.g., "Curriculum Vitae - $author$"
+\author{$author$}
+\date{$date$} % e.g., "Last Updated: $date$"
+
+\begin{document}
+\pagestyle{empty}
+
+\begin{center}
+\Huge \textbf{$author$} \\ % Double backslash for LaTeX newline
+\vspace{0.2cm}
+% Contact info (e.g., $email$ | $phone$ | $linkedin$) can be part of $author$ or separate variables
+\end{center}
+
+\vspace{0.5cm}
+
+\RaggedRight
+$body$ % Sections like Education, Experience, etc. using \section*{}
+
+\end{document}

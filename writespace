@@ -1,0 +1,141 @@
+#!/bin/bash
+
+# WriteSpace: The command-line writing environment.
+
+# --- Configuration ---
+TEMPLATES_DIR="02_templates"
+DRAFTS_DIR="01_drafts"
+MAKEFILE_NAME="Makefile" # Assuming a master Makefile in the repo root for now
+
+# --- Helper Functions ---
+show_help() {
+  cat << EOF
+WriteSpace: The command-line writing environment.
+
+Usage: writespace <command> [options]
+
+Commands:
+  new <name> --template <tmpl>   Creates a new project from a template.
+  build <format>                 Builds the project in the current directory.
+                                 Formats: html, html-plain, pdf, tex, all.
+  list-templates                 Lists all available project templates.
+  help                           Shows this help message.
+EOF
+}
+
+# --- Main Script Logic ---
+
+# Default action: Show help
+if [ -z "$1" ]; then
+  show_help
+  exit 0
+fi
+
+COMMAND="$1"
+shift # Remove command from arguments
+
+case "$COMMAND" in
+  help)
+    show_help
+    ;;
+  list-templates)
+    echo "Available templates:"
+    ls -1 "$TEMPLATES_DIR" | sed -e 's/\.md$//' | awk '{print "- " $0}'
+    ;;
+  new)
+    PROJECT_NAME=""
+    TEMPLATE_NAME=""
+
+    while [ "$#" -gt 0 ]; do
+      case "$1" in
+        --template)
+          TEMPLATE_NAME="$2"
+          shift 2
+          ;;
+        *)
+          if [ -z "$PROJECT_NAME" ]; then
+            PROJECT_NAME="$1"
+          else
+            echo "Error: Unknown argument '$1' for 'new' command."
+            show_help
+            exit 1
+          fi
+          shift
+          ;;
+      esac
+    done
+
+    if [ -z "$PROJECT_NAME" ] || [ -z "$TEMPLATE_NAME" ]; then
+      echo "Error: Missing project name or template for 'new' command."
+      show_help
+      exit 1
+    fi
+
+    PROJECT_DIR="$DRAFTS_DIR/$PROJECT_NAME"
+    TEMPLATE_FILE="$TEMPLATES_DIR/$TEMPLATE_NAME.md"
+
+    if [ ! -f "$TEMPLATE_FILE" ]; then
+      echo "Error: Template '$TEMPLATE_NAME' not found in '$TEMPLATES_DIR'."
+      exit 1
+    fi
+
+    if [ -d "$PROJECT_DIR" ]; then
+      echo "Error: Project directory '$PROJECT_DIR' already exists."
+      exit 1
+    fi
+
+    mkdir -p "$PROJECT_DIR"
+    cp "$TEMPLATE_FILE" "$PROJECT_DIR/$PROJECT_NAME.md"
+    echo "✓ Created new project '$PROJECT_NAME' using '$TEMPLATE_NAME' template."
+    ;;
+  build)
+    BUILD_FORMAT="$1"
+    if [ -z "$BUILD_FORMAT" ]; then
+      echo "Error: Missing build format for 'build' command."
+      show_help
+      exit 1
+    fi
+
+    # Check if we are inside a project directory (e.g., 01_drafts/my-project)
+    # A simple check could be to see if a .md file with the parent directory's name exists.
+    CURRENT_DIR_NAME=$(basename "$(pwd)")
+    EXPECTED_MD_FILE_IN_PROJECT_DIR="${CURRENT_DIR_NAME}.md"
+
+    if [[ "$(basename "$(dirname "$(pwd)")")" != "$DRAFTS_DIR" ]] || [[ ! -f "$EXPECTED_MD_FILE_IN_PROJECT_DIR" ]]; then
+        echo "Error: The 'build' command must be run from within a project directory inside '$DRAFTS_DIR/'."
+        echo "Example: cd $DRAFTS_DIR/my-project/ && writespace build pdf"
+        exit 1
+    fi
+
+    # Assuming the master Makefile is in the repository root.
+    # We need to call it from the project directory, passing the project name and format.
+    # The Makefile will need to be adapted to handle this.
+    # For now, let's assume the Makefile is in the repo root and can be called directly
+    # and it knows how to handle being called from a subdirectory.
+    # Or, we can cd to the repo root, and then call make.
+    # Let's try to call the Makefile from the repo root.
+    REPO_ROOT=$(git rev-parse --show-toplevel)
+    PROJECT_PATH_FROM_ROOT=$(realpath --relative-to="$REPO_ROOT" "$(pwd)")
+
+    if [ ! -f "$REPO_ROOT/$MAKEFILE_NAME" ]; then
+        echo "Error: Master Makefile '$MAKEFILE_NAME' not found in repository root '$REPO_ROOT'."
+        exit 1
+    fi
+
+    (cd "$REPO_ROOT" && make "PROJECT_DIR=$PROJECT_PATH_FROM_ROOT" "$BUILD_FORMAT")
+
+    # If the Makefile is designed to be run *from* the project directory,
+    # and it can find the master Makefile (e.g., ../../Makefile)
+    # then the command would be simpler:
+    # make -f ../../Makefile "$BUILD_FORMAT"
+    # This is often a cleaner approach for project-specific builds.
+    # For this iteration, I'll stick to calling the root Makefile.
+    ;;
+  *)
+    echo "Error: Unknown command '$COMMAND'"
+    show_help
+    exit 1
+    ;;
+esac
+
+exit 0

@@ -1,0 +1,21 @@
+\documentclass[man]{apa7}
+\usepackage[utf8]{inputenc}
+\usepackage[american]{babel}
+\usepackage{csquotes}
+% biblatex is integrated with apa7 class
+\addbibresource{library.bib} % Pandoc's --bibliography will point to the correct file.
+
+\title{$title$}
+\author{$author$}
+\date{$date$}
+\abstract{$abstract$} % APA requires an abstract
+
+% Optional: \keywords{keyword1, keyword2}, \authornote{Author note here.}
+
+\begin{document}
+\maketitle
+
+$body$
+
+\printbibliography
+\end{document}

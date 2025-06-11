@@ -1,0 +1,22 @@
+\documentclass[12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[american]{babel}
+\usepackage{csquotes}
+\usepackage[style=mla]{biblatex}
+\addbibresource{library.bib} % Pandoc's --bibliography will point to the correct file.
+\usepackage{geometry}
+\geometry{a4paper, margin=1in}
+\usepackage{setspace} % For \doublespacing
+\doublespacing
+
+\title{$title$}
+\author{$author$}
+\date{$date$}
+
+\begin{document}
+\maketitle
+
+$body$
+
+\printbibliography
+\end{document}

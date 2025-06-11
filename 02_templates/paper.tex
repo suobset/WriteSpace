@@ -1,0 +1,22 @@
+\documentclass[12pt, letterpaper]{article}
+\usepackage{amsmath, amssymb}
+\usepackage{graphicx}
+\usepackage[margin=1in]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage[natbib, backend=bibtex]{biblatex} % For citations
+\addbibresource{../../library.bib} % Path to your central bib file
+
+% Variables from Pandoc's YAML frontmatter
+\title{$title$}
+\author{$author$}
+\date{$date$}
+
+\begin{document}
+
+\maketitle
+
+$body$ % Pandoc will insert your Markdown content here
+
+\printbibliography
+
+\end{document}
